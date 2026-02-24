@@ -17,6 +17,7 @@ pip install -r requirements.txt
 Follow `docs/OpensearchInstall.md` to start OpenSearch, then continue here.
 
 2. Ingest Dummy Data
+USE_POSTGRES=true must be commented out in the .env file in order to run the next command.
 
 ```bash
 python db/ingest_docket.py
